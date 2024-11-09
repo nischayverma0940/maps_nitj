@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+}
+.main-container{
+    
+    display: flex;
+         
+}
+
+.login-container {
+    text-align: center;
+
+    width: 400px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    border-radius: 10px;
+    background-color: #366dc5; /* Set the background color to blue */
+}
+
+.login-box {
+    padding: 40px;
+    width: 100%;
+    background: #366dc5;
+    border-radius: 10px;
+    
+}
+
+.login-box2{
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    background: #366dc5;
+}
+.login-box2 p {
+    display: flex;
+    justify-content: space-around;
+    align-items :center;
+    text-align: center;
+    margin: auto; /* Centers the element in its container */
+    padding: 1rem; /* Adjust this value for desired spacing */
+    width: 80%; /* Sets an optional width, adjust as needed */
+    max-width: 600px; /* Optional max-width for better readability */
+}
+.login-box2 h3{
+    padding-top: 0px;
+}
+.login-box2 h1{
+    padding-bottom: 2px;
+    margin-top:2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items :center;
+    text-align: center;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #36c5ad; /* Set the button color to blue */
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.signup-link{
+    margin-top: 1rem;
+    text-decoration:none ;
+}
+.signup-link a{ 
+    margin-top: 1rem;
+    text-decoration:none ;
+}
